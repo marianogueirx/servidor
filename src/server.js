@@ -11,6 +11,5 @@ app.get('/sobre', (req, res) => res.sendFile(path.join(__dirname, 'pages/sobre.h
 app.get('/comprar', (req, res) => res.sendFile(path.join(__dirname, 'pages/comprar.html')));
 app.get('/sinopse', (req, res) => res.sendFile(path.join(__dirname, 'pages/sinopse.html')));
 app.get('/atores', (req, res) => res.sendFile(path.join(__dirname, 'pages/atores.html')));
-app.get('/opiniao', (req, res) => res.sendFile(path.join(__dirname, 'pages/opiniao.html')));
 
 app.listen(PORT, () => console.log(`Servidor rodando em http://localhost:${PORT}`));
